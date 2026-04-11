@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BISHWAS Portfolio</title>
+  <title>Bishwas Portfolio</title>
 
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-  
 
 </head>
 
+
+
 <body class="bg-dark text-light">
+  
 
 <!-- 🔥 PLAYCANVAS BACKGROUND (UNCHANGED) -->
 <div style="position: fixed; inset: 0; z-index: -1;">
@@ -50,36 +52,147 @@
     </div>
   </div>
 </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bishwas Portfolio</title>
 
-<!-- 🔥 HERO -->
-<div class="container py-5">
-  <div class="row align-items-center g-5">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-    <div class="col-lg-6">
-      <h1 class="fw-bold display-4">
-        Hi, I'm <span class="text-primary">K. Bishwas</span>
-      </h1>
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-      <h5 class="text-secondary mb-3">
-        B-TECH  CSE(AI & ML) Student | Python Developer | "C" Programmer | OpenCV Enthusiast | Full Stack Developer | AI Researcher| Open to Internships
-      </h5>
+</head>
 
-      <p class="lead text-secondary">
-        Building real-world AI systems, computer vision solutions, and full-stack applications.
-      </p>
+<body>
 
-      <div class="mt-4">
-        <a href="#" class="btn btn-primary me-2">Projects</a>
-        <a href="#" class="btn btn-outline-dark">Contact</a>
+<!-- 🔥 MAIN LAYOUT -->
+<div class="d-flex">
+
+  <!-- 🔹 SIDEBAR -->
+  <div class="flex-shrink-0 p-3 bg-white border-end vh-100" style="width: 280px;">
+
+    <!-- Logo -->
+    <a href="#" class="d-flex align-items-center pb-3 mb-3 text-decoration-none border-bottom">
+      <span class="fs-5 fw-bold">Bishwas<span class="text-primary"></span></span>
+    </a>
+
+    <ul class="list-unstyled ps-0">
+
+      <li class="mb-2">
+        <a href="#" class="btn w-100 text-start">🏠 Home</a>
+      </li>
+
+      <!-- Projects -->
+      <li class="mb-2">
+        <button class="btn w-100 text-start"
+          data-bs-toggle="collapse" data-bs-target="#projects-collapse">
+          🚀 Projects
+        </button>
+
+        <div class="collapse show" id="projects-collapse">
+          <ul class="list-unstyled small ms-3">
+            <li><a href="#" class="text-decoration-none d-block py-1">AI Projects</a></li>
+            <li><a href="#" class="text-decoration-none d-block py-1">Web Projects</a></li>
+            <li><a href="#" class="text-decoration-none d-block py-1">Mini Projects</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="mb-2">
+        <a href="#" class="btn w-100 text-start">💻 Skills</a>
+      </li>
+
+      <li class="mb-2">
+        <a href="#" class="btn w-100 text-start">📈 Experience</a>
+      </li>
+
+      <!-- Certificates -->
+      <li class="mb-2">
+        <button class="btn w-100 text-start"
+          data-bs-toggle="collapse" data-bs-target="#cert-collapse">
+          🎓 Certificates
+        </button>
+
+        <div class="collapse show" id="cert-collapse">
+          <ul class="list-unstyled small ms-3">
+            <li><a href="#" class="text-decoration-none d-block py-1">Full Stack Development</a></li>
+            <li><a href="#" class="text-decoration-none d-block py-1">C Programming</a></li>
+            <li><a href="#" class="text-decoration-none d-block py-1">Python Developer</a></li>
+            <li><a href="#" class="text-decoration-none d-block py-1">OpenCV</a></li>
+            <li><a href="#" class="text-decoration-none d-block py-1">Hackathon</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="mb-2">
+        <a href="#" class="btn w-100 text-start">📩 Contact</a>
+      </li>
+
+      <li class="border-top my-3"></li>
+
+      <!-- Social -->
+      <li class="mb-2">
+        <a href="#" class="btn btn-outline-dark w-100 mb-2">
+          <i class="bi bi-github"></i> GitHub
+        </a>
+      </li>
+
+      <li class="mb-2">
+        <a href="#" class="btn btn-primary w-100">
+          <i class="bi bi-linkedin"></i> LinkedIn
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+
+  <!-- 🔥 MAIN CONTENT -->
+  <div class="flex-grow-1">
+
+    <!-- HERO SECTION -->
+    <div class="container py-5">
+      <div class="row align-items-center g-5">
+
+        <!-- TEXT -->
+        <div class="col-lg-6">
+          <h1 class="fw-bold display-4">
+            Hi, I'm <span class="text-primary">K. Bishwas</span>
+          </h1>
+
+          <h5 class="text-secondary mb-3">
+            B-TECH CSE (AI & ML) Student | Python Developer | "C" Programmer | OpenCV Enthusiast | Full Stack Developer | AI Researcher | Open to Internships
+          </h5>
+
+          <p class="lead text-secondary">
+            Building real-world AI systems, computer vision solutions, and full-stack applications.
+          </p>
+
+          <div class="mt-4">
+            <a href="#" class="btn btn-primary me-2">Projects</a>
+            <a href="#" class="btn btn-outline-dark">Contact</a>
+          </div>
+        </div>
+
+        <!-- IMAGE -->
+        <div class="col-lg-6 text-center">
+          <img src="B.jpg" class="img-fluid rounded shadow" width="400">
+        </div>
+
       </div>
     </div>
 
-    <div class="col-lg-6 text-center">
-      <img src="B.jpg" class="img-fluid rounded shadow" width="400">
-    </div>
-
   </div>
+
 </div>
+
+</body>
+</html>
 
 <!-- 🔥 PROJECTS -->
 <div class="container py-5">
